@@ -1,0 +1,188 @@
+.container{
+    border: solid 5px black;
+    width: 700px;
+    height: 700px;
+    /* background-color:lavenderblush; */
+    /* position: fixed; */
+    /* position: fixed; */
+   /* display: flex; */
+
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-left:300px   ;
+  
+}
+.navbar{
+/* justify-items: center; */
+    padding: 10px;
+  background-color: gray;
+  position: fixed;
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+
+ 
+ 
+}
+.navbar a{
+   /* margin-left: 128px; */
+    color: white;
+    text-decoration: none;
+
+ 
+}
+.image img{
+    margin-top: 50px;
+    margin-left: 1px;
+    width: 698px;
+    height: 598px;
+    overflow: scroll;
+}
+    /* .heading{
+        position: fixed;
+        margin-top: 50px;
+        border: black solid 2px;
+        
+        padding: 20px;      
+        width: 200px;
+        margin-left: 230px;
+        margin-right: 250px;
+        background-color:cornflowerblue;
+    
+    } */
+     .abt{
+       
+        margin-top: 10px;
+        width: 500px;
+        height: 2000px;
+      
+        /* border: solid black 3px; */
+        
+     }
+     .abt button{
+        margin-top: 10px;
+       background-color: gray;
+        color: white;
+     }
+     .matter{
+        margin-top: 10px;
+        /* border: gray 2px solid; */
+        font-style: oblique;
+    
+     }
+         .matter1{
+        margin-top: 10px;
+        /* border: gray 2px solid; */
+        font-style: italic;
+      
+        
+    
+     }
+     .matter2{
+        margin-top: 10px;
+        /* border: gray 2px solid; */
+        font-style: italic;
+        padding: 20px;
+        border-left: solid skyblue 5px;
+        margin-left: 2px;
+    
+     }
+     .matter3 img  {
+        margin-top: 10px ;
+        width: 450px;
+       
+     }
+     .abt1 button{
+        margin-top: 10px;
+        /* width: 400px;
+        height: 500px; */
+
+    
+       background-color: gray;
+        color: white;
+     }
+
+  .bar{
+    margin-top: 10px    ;
+    /* width: 400px;
+    height: 500px; */
+       /* border: 2px black  solid; */
+       display: flex;
+       justify-content: space-between;
+       align-items: start;
+ 
+  }
+  .one{
+    padding: 10px;
+    /* background-color: gray; */
+    width: 250px;
+    margin-left: 2px;
+    background-color: black;
+    color: white;
+
+
+ 
+
+      
+  }
+  .two{
+    margin-left: 2px;
+      padding: 10px;
+    /* background-color: wheat; */
+    width: 250px;
+     margin-right: 2px;
+    background-color: black;
+    color: white;
+
+  }
+  .content{
+    width: 400px;
+    height: 250px;
+    /* border: red solid; */
+
+  }
+   .content1    {
+    width: 400px;
+    height: 250px;
+    /* border: black solid; */
+  }
+  .break{
+    display: flex  ;
+    justify-content: space-between  ;
+  }
+.image1 img{
+    margin-top: 10px;
+    width: 300px;
+    height: 250px;
+}
+.abt2 button{
+        margin-top: 10px;
+       /* background-color: gray; */
+        color: white;
+     }
+
+.image2 img{
+    margin-top: 10px;
+    width: 300px;
+    height: 250px;
+
+}
+.w1{
+     margin-top: 10px;
+        /* border: gray 2px solid; */
+        font-style: italic;
+}
+.place input{
+    margin-top: 10px;
+    width: 400px;
+    padding: 20px;
+}
+.send{
+    margin-top: 10px;
+    padding: 20px;
+    width: 100px;
+    border: 2px solid;
+    align-items: start;
+    background-color: black;
+    color: white;
+}
