@@ -1,5 +1,5 @@
 .container{
-    border: solid 5px black;
+    border: solid 2px black;
     width: 700px;
     height: 700px;
     /* background-color:lavenderblush; */
@@ -10,18 +10,20 @@
     overflow: scroll;
     scrollbar-width: none;
     margin-left:300px;
-    background-color: lavender;
+    /* background-color: lavender; */
+    border-radius: 7px;
   
 }
 .navbar{
 /* justify-items: center; */
     padding: 10px;
-  background-color: gray;
+  background-color: black;
   position: fixed;
   width: 680px;
   display: flex;
   justify-content: space-between;
-
+  /* border: solid 2px; */
+/* border-radius: 7px; */
  
  
 }
@@ -190,5 +192,18 @@
 }
 .send a{
   color: black;
+  text-decoration: none;
+}
+.footer{
+  align-items: center;
+  /* border: red 2px solid; */
+  width: 150px;
+  height: 50px;
+  margin-left: 280px;
+  margin-bottom: 50px;
+  justify-items: center;
+
+}
+.footer a{
   text-decoration: none;
 }
